@@ -9,7 +9,7 @@ duration.
 
 ```hcl
 module "monitoring" {
-  source = "github.com/cybercapybara/terraform-google-monitoring"
+  source = "github.com/moveeeax/terraform-google-monitoring"
 
   project_id      = var.project_id
   display_name    = "High CPU utilization"
